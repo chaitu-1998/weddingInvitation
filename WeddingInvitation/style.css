@@ -1,0 +1,179 @@
+
+@font-face {
+    font-family: 'italic';
+    src: url('./design/Font/aguafina-script/AguafinaScript-Regular.ttf') format('truetype');
+}
+html{
+    width: 1250px;
+    height: max-content;
+}
+header{
+    border-bottom: 5px solid;
+    padding: 30px;
+    position :fixed;
+    background-color: white;
+    margin-left: 80px;
+}
+a{
+    text-align: center;
+    font-size: larger;
+    padding:0px 80px;
+    font-weight: bolder;
+    text-decoration: none;
+    position: relative;
+    color: black;
+    
+}
+.name{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 60px;
+    color: hsl(0, 0%, 0%);
+    font-size: 70px;
+    font-family: italic;
+    width: 1102px;
+    height: 200px;
+
+}
+
+.photo > img{
+    margin-top: 10px;
+    border: 4px solid;
+    width: 1200px;
+    margin-left: 20px;
+    opacity: .5;
+}
+main{
+padding-top: 120px;
+}
+#ourstory{
+    padding: 10px;
+    font-size: large;
+    height: 740px;
+    width: 1200px;
+}
+#ourstory > h2{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+}
+#ourstory > p{
+
+    width: 400px;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 235px;
+    font-family: cursive;
+}
+#ourstory > img{
+    height: 450px;
+    width: 400px;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+section .weddingParty{
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.bride > h2{
+
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 70px;
+}
+.bridelParty{
+    width: 25%;
+    height: 338px;
+    float: left;
+    margin-left: 80px;
+    font-family: cursive;
+    text-align: center;
+    overflow: scroll;
+    background-color: #b2b2b2;
+}
+.engagement{
+
+    height: 338px;
+    width: 25%;
+    float: left;
+    margin:0px 50px;
+    font-family: cursive;
+    text-align: center;
+    overflow: scroll;
+    background-color: #b2b2b2;
+}
+.reception{
+
+    height: 338px;
+    width: 25%;
+    overflow: scroll;
+    font-family: cursive;
+    text-align: center;
+    overflow: scroll;
+    background-color: #b2b2b2;
+}
+.groom > h2{
+    border: 1px solid;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    width: fit-content;
+    margin-left: 542PX;
+    margin-bottom: 70px;
+}
+.batchlorParty{
+    width: 25%;
+    height: 338px;
+    float: left;
+    margin-left: 80px;
+    font-family: cursive;
+    text-align: center;
+    overflow: scroll;
+    background-color: #b2b2b2;
+} 
+.postWeddingParty{
+    height: 338px;
+    width: 25%;
+    float: left;
+    margin:0px 50px;
+    font-family: cursive;
+    text-align: center;
+    overflow: scroll;
+    background-color: #b2b2b2;
+}
+#Muhurtham{
+    float: left;
+}
+#Muhurtham > h2{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 70px;
+    font-size: 70px;
+}
+.details{
+    margin-left:80px ;
+    margin-right: 50px;
+    padding:0px 50px ;
+    font-family: cursive;
+    text-align: center;
+}
+section .details{
+    float:left;
+    width: 40%;
+    margin-top: 50px;
+    width: 20%;
+    margin-right: 200px;
+}
+section .location{
+    margin-top: 150px;
+}
